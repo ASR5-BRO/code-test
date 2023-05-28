@@ -1,0 +1,11 @@
+a{
+    text-align: center;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: 2px blue;
+    border-radius: 7px;
+
+}
