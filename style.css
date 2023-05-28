@@ -1,17 +1,18 @@
-*{
-    color: aqua;
-}
 h1{
-    color: white;
+    color: rgb(0, 0, 0);
+    border: 40px blue;
+    padding: 20px;
 }
 a{
     text-align: center;
-    margin: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 2px;
     font-size: 18px;
     font-weight: bold;
     color: white;
     background-color: black;
     border: 2px blue;
     border-radius: 7px;
+    text-decoration: none;
 
 }
