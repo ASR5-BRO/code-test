@@ -1,47 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merienda:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
-    font-family: "Merienda", sans-serif;
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    display: flex;
 }
+
+:root{
+    --dark-bg-color: #1F2937;
+    --main-logo-color: #f9faf8;
+    --button-color: #3882f6;
+    --q-color: #e5e7eb;
+}
+
 header{
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px;
-    margin: 20px 40px;
-    border-radius: 20px;
+    align-items: center;
+    padding: 30px 10px;
+    background-color: var(--dark-bg-color);
+    position: fixed;
+    z-index: 999px;
 }
+
 .logo{
-    color: #fff;
-    font-size: 20px;
-    font-weight: 800;
-    padding: 10px;
+    font-size: 24px;
+    color: var(--main-logo-color);
+    font-weight: 600;
     text-decoration: none;
 }
-.logo:hover{
-    background-color: aquamarine;
-    border-radius: 10px;
-    transition: .5s ease-in-out;
-}
+
 .navigation a{
-    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 300;
     text-decoration: none;
-    font-size: 15px;
-    font-weight: 700;
-    color: #fff;
-
+    color: var(--q-color);
+    padding-right: 20px;
 }
-img{
-    border: 2px solid gold;
-    width: 100px;
-    height: 50px;
+.main{
+    background-color: var(--dark-bg-color);
+}
+.main h2{
+    color:var(--main-logo-color);
+    font-size: 48px;
+    font-weight: 800;
+}
+.main p{
+    font-size: 18px;
+    color: var(--q-color);
+}
+.main button a{
+    font-size: 22px;
+    color: var(--main-logo-color);
+    text-decoration: none;
     border-radius: 20px;
-    margin: 10px;
-
-}
-p{
-    text-decoration: line-through;
-    background-color: gold;
-    font-weight: 900;
-    display: inline-block;
-    margin: 10px;
+    padding: 10px 40px;
+    background-color: var(--button-color);
 }

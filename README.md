@@ -1,2 +1,2 @@
 # code-test
-this test for my coding skills
+this test for my coding skills.
